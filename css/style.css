@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    min-width: 740px;
+    max-width: 1180px;
+    margin: 0 auto;
+    background: url(../images/bg-container.png) repeat-y top center;
+}
+
+/* Configurações do header */
+.header {
+    position: relative;
+}
+
+.header__banner {
+    width: 100%;
+    height: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: url(../images/topo-imagem-principal2.png) no-repeat;
+}
+
+.header__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    padding: 10px 20px 10px 90px;
+    background: url(../images/topo-imagem-lateral.png) no-repeat;
+}
+
+.reservation {
+    padding: 5px 0;
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+}
+
+.reservation__text, .reservation__btn {
+    font-size: 0.7em;
+}
+
+.reservation__text {
+    float: left;
+    line-height: 2.1em;
+    color: #8b8448;
+}
+
+.reservation__btn {
+    float: right;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff5b0;
+    background-color: #a29750;
+}
+
+.menu-container {
+    margin-top: 20px;
+}
+
+.menu {
+    float: left;
+    margin-right: 5px;
+}
+
+.menu__item {
+    margin: 10px 0;
+}
+
+.menu__link {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #6e672c;
+}
+
+.menu__link:hover {
+    background-color: #fdf6be;
+}
+
+.testimonial {
+    float: right;
+}
+
+/* Configuração da seção principal */
+.main__content, .benefits {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.main__content {
+    float: left;
+    background: url(../images/bg-area-principal.png) repeat-x left top;
+}
+
+.content__title {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #7d7640;
+}
+
+.benefits {
+    float: right;
+    background: url(../images/bg-area-lateral.png) repeat-x left top;
+}
+
+.benefits__item {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.benefits__item:hover {
+    cursor: pointer;
+    background-color: #f6f3d6;
+}
+
+.benefits__thumb {
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.benefits__title {
+    padding-top: 5px;
+    font-size: 1em;
+    color: #615b2d;
+    background: url(../images/ornamento.png) no-repeat right center;
+}
+
+.benefits__text {
+    font-size: .8em;
+}
+
+.footer {
+    min-width: 740px;
+    max-width: 1180px;
+    padding-top: 15px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    background: #fff url(../images/bg-rodape.png) repeat-x bottom;
+}
+
+.footer__text {
+    color: #7d7640;
+}
